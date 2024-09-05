@@ -7,7 +7,7 @@ fn is_even(num: i64) -> bool {
     num % 2 == 0
 }
 
-// TODO: Fix the function signature.
+// TODO: Fix the function signature. Creating Commit Test
 fn sale_price(price: i64) -> {
     if is_even(price) {
         price - 10
