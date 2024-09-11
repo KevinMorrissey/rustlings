@@ -1,5 +1,11 @@
 fn array_and_vec() -> ([i32; 4], Vec<i32>) {
     let a = [10, 20, 30, 40]; // Array
+    let mut v = Vec::new();
+
+    v.push(10);
+    v.push(20);
+    v.push(30);
+    v.push(40);
 
     // TODO: Create a vector called `v` which contains the exact same elements as in the array `a`.
     // Use the vector macro.
