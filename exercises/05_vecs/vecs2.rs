@@ -1,10 +1,10 @@
 //Reading the vecs section extremely helpful here.
 
 fn vec_loop(input: &[i32]) -> Vec<i32> {
-    let output = Vec::new();
+    let mut output = Vec::new();
 
     for element in input {
-        *element *= 2;
+        output.push(2 * element);
     }
 
     output
