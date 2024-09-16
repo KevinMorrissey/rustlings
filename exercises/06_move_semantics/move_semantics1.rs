@@ -8,7 +8,8 @@ fn fill_vec(vec: Vec<i32>) -> Vec<i32> {
 }
 
 fn main() {
-    // You can optionally experiment here.
+    
+
 }
 
 #[cfg(test)]
@@ -22,3 +23,4 @@ mod tests {
         assert_eq!(vec1, vec![22, 44, 66, 88]);
     }
 }
+
